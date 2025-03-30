@@ -1,0 +1,103 @@
+/* Стилі для hero секції */
+.hero {
+    background-color: #e9f5f2; /* Light green background */
+    padding: 120px 0; /* Increased top and bottom padding */
+  }
+  
+  .hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hero-content {
+    flex: 1;
+    padding-right: 80px; /* More spacing between text and image */
+  }
+  
+  .bookland-label {
+    font-size: 1.4em;
+    color: #2c3e50; /* Darker text color */
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .hero-text h1 {
+    font-size: 4.5em; /* Larger heading */
+    color: #2c3e50;
+    margin-bottom: 35px;
+    line-height: 1.1; /* Adjust line height */
+  }
+  
+  .hero-text p {
+    font-size: 1.15em;
+    line-height: 1.8; /* Adjust line height */
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .shop-now-button {
+    display: inline-block;
+    background-color: #2c3e50; /* Dark blue button color */
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .shop-now-button:hover {
+    background-color: #3a5371; /* Slightly darker on hover */
+  }
+  
+  .hero-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .hero-image img {
+    max-width: 95%; /* Slightly larger image */
+    height: auto;
+  }
+  
+  /* Адаптивні стилі */
+  @media (max-width: 992px) {
+    .hero {
+      padding: 100px 0;
+    }
+    .hero .container {
+      flex-direction: column;
+      text-align: center;
+    }
+    .hero-content {
+      padding-right: 0;
+      margin-bottom: 50px;
+    }
+    .hero-text h1 {
+      font-size: 4em;
+    }
+    .hero-image img {
+      max-width: 80%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero {
+      padding: 80px 0;
+    }
+    .hero-text h1 {
+      font-size: 3.5em;
+    }
+    .hero-text p {
+      font-size: 1.1em;
+    }
+    .hero-image img {
+      max-width: 90%;
+    }
+    .shop-now-button {
+      padding: 12px 25px;
+      font-size: 1em;
+    }
+  }

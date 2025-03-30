@@ -1,0 +1,136 @@
+/* Trending Titles Section */
+.trending-titles {
+    background-color: #f9f9f9; /* Light background */
+    padding: 80px 0;
+  }
+
+  .trending-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .trending-text {
+    flex: 1;
+    padding-right: 40px;
+  }
+
+  .trending-text h2 {
+    color: #e00; /* Example accent color */
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+
+  .trending-text .section-subtitle {
+    color: #555;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+
+  .trending-text h3 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 25px;
+    line-height: 1.2;
+  }
+
+  .trending-text p {
+    color: #777;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+
+  .trending-text .shop-now-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .trending-text .shop-now-button:hover {
+    background-color: #555;
+  }
+
+  .trending-image {
+    flex: 1;
+    text-align: center;
+  }
+
+  .trending-image img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 5px; /* Optional: Add rounded corners to the image */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  }
+
+  /* Features Row */
+  .features-row {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 60px auto 0;
+    padding: 0 20px;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .feature-item {
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+  }
+
+  .feature-item h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+  }
+
+  .feature-item p {
+    color: #777;
+    line-height: 1.6;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 992px) {
+    .trending-content {
+      flex-direction: column;
+      text-align: center;
+    }
+    .trending-text {
+      padding-right: 0;
+      margin-bottom: 40px;
+    }
+    .trending-image {
+      max-width: 60%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .trending-text h2 {
+      font-size: 2.5em;
+    }
+    .trending-text h3 {
+      font-size: 2em;
+    }
+    .trending-image {
+      max-width: 80%;
+    }
+    .features-row {
+      flex-direction: column;
+      align-items: center;
+    }
+    .feature-item {
+      margin-bottom: 30px;
+      min-width: auto;
+      width: 80%;
+    }
+  }

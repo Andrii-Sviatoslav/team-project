@@ -1,1 +1,4 @@
-@import "/css/header.css"
+@import "./header.css";
+@import "./hero.css";
+@import "./trading-titles.css";
+@import "./new-arrivals.css";
