@@ -1,0 +1,58 @@
+  .features-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Вирівнюємо елементи зверху */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    padding: 30px; /* Add padding around the container */
+    border-radius: 15px; /* Rounded corners for the container */
+  }
+  
+  .feature-item {
+    display: flex; /* Використовуємо Flexbox для вирівнювання іконки та тексту */
+    align-items: center; /* Вирівнюємо іконку та текст по центру вертикально */
+    text-align: left; /* Вирівнюємо текст зліва всередині блоку */
+    max-width: 350px; /* Adjust maximum width as needed */
+  }
+  
+  .feature-item img {
+    max-width: 50px; /* Adjust image size as needed */
+    height: auto;
+    margin-right: 15px; /* Додаємо відступ справа від іконки */
+  }
+  
+  .feature-item h3 {
+    font-size: 15px;
+    color: red;
+    line-height: 1;
+  }
+  
+  .feature-item p {
+    font-size: 14px;
+    color: #777;
+    line-height: 1;
+    margin-bottom: 0; /* Забираємо зайвий відступ знизу */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .features-container {
+      justify-content: center; /* Center items on smaller screens */
+    }
+    .feature-item {
+      max-width: 400px; /* Allow more width on medium screens */
+      margin: 15px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .feature-item {
+      max-width: 90%; /* Take up more width on small screens */
+      margin: 10px auto;
+      flex-direction: column; /* Змінюємо напрямок на вертикальний на дуже малих екранах */
+      text-align: center; /* Центруємо текст знову на дуже малих екранах */
+    }
+    .feature-item img {
+      margin-right: 0;
+      margin-bottom: 10px; /* Додаємо відступ під іконкою на малих екранах */
+    }
+  }

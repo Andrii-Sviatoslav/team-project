@@ -1,75 +1,186 @@
+/* Basic Styles */
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
 
-.header {
-  height: 36px;
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Top Bar */
+.top-bar {
+  background-color: #f8f8f8;
+  color: #333;
   padding: 10px 0;
+  font-size: 14px;
+}
+
+.top-bar-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 180px;
 }
 
-  .hero {
-    background-color: #e9f5f2; /* Light green background for the hero section */
-    padding: 80px 0;
+.top-bar-left a,
+.top-bar-right a {
+  font-weight: bold;
+  color: #e00; /* Example accent color */
+}
+
+/* Main Navigation */
+.main-navigation {
+  background-color: #fff;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.main-nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #222;
+}
+
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.main-nav ul li {
+  margin-left: 25px;
+}
+
+.main-nav ul li:first-child {
+  margin-left: 0;
+}
+
+.main-nav ul li a {
+  color: #555;
+  font-size: 16px;
+  padding: 10px 0;
+  display: block;
+}
+
+/* Header Actions */
+.header-actions {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  margin-left: 10px; /* Переміщено відступ вліво */
+  margin-right: 300px;
+}
+
+.search-bar input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 14px;
+}
+
+.search-bar button {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+  border-left: none;
+  padding: 10px 15px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.search-bar button i {
+  font-size: 16px;
+}
+
+.social-icons {
+  display: flex;
+  margin-left: 20px; /* Додано відступ зліва від іконок */
+}
+
+.social-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #eee;
+  color: #777;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.social-icon i {
+  font-size: 18px;
+}
+
+/* Responsive adjustments (basic) */
+@media (max-width: 992px) {
+  .main-nav {
+    display: none; /* Hide main nav on smaller screens initially */
   }
-  
-  .hero .container {
-    display: flex;
+  .header-actions {
+    order: 1; /* Повертаємо search bar праворуч (після навігації, якщо вона є) */
+    margin-left: 15px; /* Змінюємо відступ */
+  }
+  .logo {
+    font-size: 22px;
+  }
+  .main-nav-content {
     justify-content: space-between;
+  }
+  /* You would typically add a menu icon to toggle the main nav */
+}
+
+@media (max-width: 600px) {
+  .top-bar-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .top-bar-right {
+    margin-top: 5px;
+  }
+  .main-nav-content {
+    flex-direction: column;
     align-items: center;
   }
-  
-  .hero-content {
-    flex: 1;
-    padding-right: 40px;
+  .main-nav {
+    display: none; /* Переконаємося, що навігація прихована */
+    width: 100%;
+    margin-top: 15px;
   }
-  
-  .hero-text h1 {
-    font-size: 3em;
-    color: #2c3e50; /* Darker heading color */
-    margin-bottom: 20px;
+  .main-nav ul {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  .hero-text p {
-    font-size: 1.1em;
-    line-height: 1.6;
-    color: #555;
-    margin-bottom: 15px;
+  .main-nav ul li {
+    margin: 10px 0;
   }
-  
-  .hero-image {
-    flex: 1;
-    text-align: center;
+  .header-actions {
+    flex-direction: row; /* Повертаємо search bar та іконки в ряд */
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+    justify-content: space-between;
   }
-  
-  .hero-image img {
-    max-width: 80%;
-    height: auto;
+  .search-bar {
+    margin-left: 0;
+    margin-right: 10px;
+    flex-grow: 1; /* Дозволяємо займати більше місця */
   }
-  
-  /* Featured books section (example) */
-  .featured-books {
-    padding: 60px 0;
-    text-align: center;
+  .social-icons {
+    margin-left: 10px;
   }
-  
-  .featured-books h2 {
-    font-size: 2.5em;
-    color: #2c3e50;
-    margin-bottom: 30px;
-  }
-  
-  /* Footer styling */
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 40px 0;
-    text-align: center;
-    font-size: 0.9em;
-  }
-  
-  footer .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
+}

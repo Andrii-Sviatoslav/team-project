@@ -1,7 +1,6 @@
 /* New Arrivals Section */
 .new-arrivals {
     padding: 80px 0;
-    background-color: #f9f9f9; /* Light background */
   }
 
   .container {
@@ -40,10 +39,8 @@
   }
 
   .arrival-card {
-    background-color: #fff;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
   }
 
@@ -82,20 +79,19 @@
   }
 
   .buy-now-button {
-    display: inline-block;
-    background-color: #e00; /* Example accent color */
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 0.9em;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
   }
 
-  .buy-now-button:hover {
-    background-color: #c00;
+  .buy-now-button:hover{
+    background-color: #6e6b6b;
   }
+
 
   /* Responsive adjustments */
   @media (max-width: 768px) {
