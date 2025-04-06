@@ -94,38 +94,44 @@
   margin-right: 0;
 }
 
-  /* Responsive adjustments for both sections */
-  @media (max-width: 992px) {
-    .trending-container {
-      flex-direction: column;
-      text-align: center;
-    }
-    .trending-image {
-      max-width: 80%;
-      margin-bottom: 30px;
-    }
-    .trending-content {
-      max-width: 90%;
-    }
-    .trending-books {
-      justify-content: center;
-    }
-    .features-container {
-      justify-content: center;
-    }
-    .feature-item {
-      max-width: 45%;
-    }
+@media (max-width: 992px) {
+  .trending-container {
+    flex-direction: column;
+    text-align: center;
   }
-  
-  @media (max-width: 600px) {
-    .trending-title {
-      font-size: 30px;
-    }
-    .trending-subtitle {
-      font-size: 20px;
-    }
-    .feature-item {
-      max-width: 90%;
-    }
+
+  .trending-image {
+    max-width: 80%;
+    margin-bottom: 30px;
   }
+
+  .trending-content {
+    max-width: 90%;
+  }
+
+  .trending-books {
+    justify-content: center;
+  }
+
+  .features-container {
+    justify-content: center;
+  }
+
+  .feature-item {
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  .trending-title {
+    font-size: 30px;
+  }
+
+  .trending-subtitle {
+    font-size: 20px;
+  }
+
+  .feature-item {
+    max-width: 90%;
+  }
+}
