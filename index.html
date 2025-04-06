@@ -1,355 +1,561 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Book Store</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>E-Book Store</title>
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-
-<body>
-  <header class="main-header">
-    <div class="top-bar">
-      <div class="container top-bar-content">
-        <div class="top-bar-left">
-          <span>Can we help you?</span>
-          <a href="tel:+122815678900">+1 (228) 567 89 00</a>
-        </div>
-        <div class="header-actions">
-          <div class="search-bar">
-            <input type="text" placeholder="Search products">
-            <button type="submit"><i class="fa fa-search"></i></button>
+  <body>
+    <header class="main-header">
+      <div class="top-bar">
+        <div class="container top-bar-content">
+          <div class="top-bar-left">
+            <span>Can we help you?</span>
+            <a href="tel:+122815678900">+1 (228) 567 89 00</a>
           </div>
-          <div class="top-bar-right">
-            <span>Get your</span>
-            <a href="#">discount on 10.000 books</a>
+          <div class="header-actions">
+            <div class="search-bar">
+              <input type="text" placeholder="Search products" />
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
+            <div class="top-bar-right">
+              <span>Get your</span>
+              <a href="#">discount on 10.000 books</a>
+            </div>
+          </div>
+        </div>
+        <div class="main-navigation">
+          <div class="container main-nav-content">
+            <div class="logo">
+              <a href="#">Book.Land</a>
+            </div>
+            <nav class="main-nav">
+              <ul>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Trending Now</a></li>
+                <li><a href="#">Hot Sale</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contacts</a></li>
+              </ul>
+            </nav>
+            <div class="social-icons">
+              <a href="#" class="social-icon instagram"
+                ><i class="fa fa-instagram"></i
+              ></a>
+              <a href="#" class="social-icon twitter"
+                ><i class="fa fa-twitter"></i
+              ></a>
+              <a href="#" class="social-icon facebook"
+                ><i class="fa fa-facebook"></i
+              ></a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="main-navigation">
-        <div class="container main-nav-content">
-          <div class="logo">
-            <a href="#">Book.Land</a>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="container hero-container">
+          <div class="hero-text">
+            <span class="hero-subtitle">BOOK.LAND</span>
+            <h1 class="hero-title">Stories That Move You</h1>
+            <p class="hero-description">
+              <strong>Huge Library:</strong> Looking for a particular book? We
+              most likely have it! Our library consists of 100,000+ ebooks of
+              different genres.
+            </p>
+            <p class="hero-description">
+              <strong>Instant Downloads:</strong> No waiting! Download your
+              chosen ebooks immediately and start reading on any device.
+            </p>
+            <a href="#" class="hero-button">Shop Now</a>
           </div>
-          <nav class="main-nav">
-            <ul>
-              <li><a href="#">New Arrivals</a></li>
-              <li><a href="#">Trending Now</a></li>
-              <li><a href="#">Hot Sale</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Contacts</a></li>
-            </ul>
-          </nav>
-          <div class="social-icons">
-            <a href="#" class="social-icon instagram"><i class="fa fa-instagram"></i></a>
-            <a href="#" class="social-icon twitter"><i class="fa fa-twitter"></i></a>
-            <a href="#" class="social-icon facebook"><i class="fa fa-facebook"></i></a>
+          <div class="hero-image">
+            <img src="./image/dark ocean.webp" alt="Ebook Devices" />
           </div>
         </div>
-      </div>
-    </div>
-  </header>
-  <main>
-    <section class="hero-section">
-      <div class="container hero-container">
-        <div class="hero-text">
-          <span class="hero-subtitle">BOOK.LAND</span>
-          <h1 class="hero-title">Stories That Move You</h1>
-          <p class="hero-description">
-            <strong>Huge Library:</strong> Looking for a particular book? We most likely have it! Our library consists
-            of 100,000+ ebooks of different genres.
-          </p>
-          <p class="hero-description">
-            <strong>Instant Downloads:</strong> No waiting! Download your chosen ebooks immediately and start reading on
-            any device.
-          </p>
-          <a href="#" class="hero-button">Shop Now</a>
+      </section>
+    </main>
+    <section class="main-content-section">
+      <div class="container main-content-container">
+        <div class="trending-section">
+          <div class="trending-container">
+            <div class="trending-image">
+              <img
+                src="./image/trending-titles/women.webp"
+                alt="Woman Reading"
+              />
+            </div>
+            <div class="trending-content">
+              <span class="trending-label">READ THEM</span>
+              <h2 class="trending-title">Trending Titles</h2>
+              <p class="trending-subtitle">Grab Best-Selling Books!</p>
+              <p class="trending-description">
+                Discover the most popular books of 2024.
+              </p>
+              <a href="#" class="trending-button"
+                >Shop Now <i class="fa fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
         </div>
-        <div class="hero-image">
-          <img src="./image/dark ocean.webp" alt="Ebook Devices">
+        <div class="container features-container">
+          <div class="feature-item">
+            <img
+              src="/image/trending-titles/018-shopping cart.svg"
+              alt="Wide Selection of Genres"
+            />
+            <h3>WIDE SELECTION OF GENRES</h3>
+            <p>From romance to non-fiction, we have it all.</p>
+          </div>
+          <div class="feature-item">
+            <img
+              src="/image/trending-titles/017-online education.svg"
+              alt="Exclusive Deals and Offers"
+            />
+            <h3>EXCLUSIVE DEALS AND OFFERS</h3>
+            <p>Get discounts on your purchases.</p>
+          </div>
+          <div class="feature-item">
+            <img
+              src="/image/trending-titles/006-student.svg"
+              alt="Instant Access"
+            />
+            <h3>INSTANT ACCESS</h3>
+            <p>Read the purchased book on any device.</p>
+          </div>
         </div>
       </div>
     </section>
-  </main>
-  <section class="main-content-section">
-    <div class="container main-content-container">
-      <div class="trending-section">
-        <div class="trending-container">
-          <div class="trending-image">
-            <img src="./image/trending-titles/women.webp" alt="Woman Reading">
-          </div>
-          <div class="trending-content">
-            <span class="trending-label">READ THEM</span>
-            <h2 class="trending-title">Trending Titles</h2>
-            <p class="trending-subtitle">Grab Best-Selling Books!</p>
-            <p class="trending-description">Discover the most popular books of 2024.</p>
-            <a href="#" class="trending-button">Shop Now <i class="fa fa-arrow-right"></i></a>
-          </div>
+    <section class="new-arrivals">
+      <div class="container">
+        <div class="section-header">
+          <h2>New Arrivals</h2>
+          <a href="#" class="view-all">View All</a>
         </div>
-      </div>
-      <div class="container features-container">
-        <div class="feature-item">
-          <img src="/image/trending-titles/018-shopping cart.svg" alt="Wide Selection of Genres">
-          <h3>WIDE SELECTION OF GENRES</h3>
-          <p>From romance to non-fiction, we have it all.</p>
-        </div>
-        <div class="feature-item">
-          <img src="/image/trending-titles/017-online education.svg" alt="Exclusive Deals and Offers">
-          <h3>EXCLUSIVE DEALS AND OFFERS</h3>
-          <p>Get discounts on your purchases.</p>
-        </div>
-        <div class="feature-item">
-          <img src="/image/trending-titles/006-student.svg" alt="Instant Access">
-          <h3>INSTANT ACCESS</h3>
-          <p>Read the purchased book on any device.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="new-arrivals">
-    <div class="container">
-      <div class="section-header">
-        <h2>New Arrivals</h2>
-        <a href="#" class="view-all">View All</a>
-      </div>
-      <div class="arrivals-grid">
-        <div class="arrival-card">
-          <div class="book-cover">
-            <img src="./image/books/224.png" alt="Ascendant - Michael Kane">
+        <div class="arrivals-grid">
+          <div class="arrival-card">
+            <div class="book-cover">
+              <img src="./image/books/224.png" alt="Ascendant - Michael Kane" />
+            </div>
+            <div class="book-details">
+              <h3 class="book-title">Ascendant - Michael Kane</h3>
+              <p class="book-price">$ 25,00 USD</p>
+              <a href="#" class="buy-now-button">Buy Now</a>
+            </div>
           </div>
-          <div class="book-details">
-            <h3 class="book-title">Ascendant - Michael Kane</h3>
-            <p class="book-price">$ 25,00 USD</p>
-            <a href="#" class="buy-now-button">Buy Now</a>
+          <div class="arrival-card">
+            <div class="book-cover">
+              <img src="/image/books/224 (1).png" alt="Mirage - Nathan Cole" />
+            </div>
+            <div class="book-details">
+              <h3 class="book-title">Mirage - Nathan Cole</h3>
+              <p class="book-price">$ 21,00 USD</p>
+              <a href="#" class="buy-now-button">Buy Now</a>
+            </div>
           </div>
-        </div>
-        <div class="arrival-card">
-          <div class="book-cover">
-            <img src="/image/books/224 (1).png" alt="Mirage - Nathan Cole">
+          <div class="arrival-card">
+            <div class="book-cover">
+              <img
+                src="./image/books/224 (2).png"
+                alt="Resonance - Emilia Fox"
+              />
+            </div>
+            <div class="book-details">
+              <h3 class="book-title">Resonance - Emilia Fox</h3>
+              <p class="book-price">$ 19,50 USD</p>
+              <a href="#" class="buy-now-button">Buy Now</a>
+            </div>
           </div>
-          <div class="book-details">
-            <h3 class="book-title">Mirage - Nathan Cole</h3>
-            <p class="book-price">$ 21,00 USD</p>
-            <a href="#" class="buy-now-button">Buy Now</a>
+          <div class="arrival-card">
+            <div class="book-cover">
+              <img src="/image/books/224 (3).png" alt="Phantom - Liam Hayes" />
+            </div>
+            <div class="book-details">
+              <h3 class="book-title">Phantom - Liam Hayes</h3>
+              <p class="book-price">$ 22,45 USD</p>
+              <a href="#" class="buy-now-button">Buy Now</a>
+            </div>
           </div>
-        </div>
-        <div class="arrival-card">
-          <div class="book-cover">
-            <img src="./image/books/224 (2).png" alt="Resonance - Emilia Fox">
-          </div>
-          <div class="book-details">
-            <h3 class="book-title">Resonance - Emilia Fox</h3>
-            <p class="book-price">$ 19,50 USD</p>
-            <a href="#" class="buy-now-button">Buy Now</a>
-          </div>
-        </div>
-        <div class="arrival-card">
-          <div class="book-cover">
-            <img src="/image/books/224 (3).png" alt="Phantom - Liam Hayes">
-          </div>
-          <div class="book-details">
-            <h3 class="book-title">Phantom - Liam Hayes</h3>
-            <p class="book-price">$ 22,45 USD</p>
-            <a href="#" class="buy-now-button">Buy Now</a>
-          </div>
-        </div>
-        <div class="arrival-card">
-          <div class="book-cover">
-            <img src="/image/books/224 (4).png" alt="Starlight - Sophie Lark">
-          </div>
-          <div class="book-details">
-            <h3 class="book-title">Starlight - Sophie Lark</h3>
-            <p class="book-price">$ 32.55 USD</p>
-            <a href="#" class="buy-now-button">Buy Now</a>
+          <div class="arrival-card">
+            <div class="book-cover">
+              <img
+                src="/image/books/224 (4).png"
+                alt="Starlight - Sophie Lark"
+              />
+            </div>
+            <div class="book-details">
+              <h3 class="book-title">Starlight - Sophie Lark</h3>
+              <p class="book-price">$ 32.55 USD</p>
+              <a href="#" class="buy-now-button">Buy Now</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="author-section">
-    <div class="author-container">
-      <div class="author-info">
-        <span class="featured-label">FEATURED AUTHOR</span>
-        <h2>Chloe Woods</h2>
-        <h3>Romance</h3>
-        <p>
-          Chloe's stories are known for their compelling characters, deep emotions, and relatable themes of love and
-          self-discovery. <br> <br> With each book, she takes readers on a journey through complex relationships and
-          unexpected twists, making her novels a favorite among romance enthusiasts looking for both heart and depth.
-        </p>
-        <button class="about-btn">About C.Woods</button>
-      </div>
-      <div class="author-image">
-        <img
-          src="https://res2.weblium.site/res/67064a58db82533cca240ae0/670e4610a47e358970a944d9_optimized_1009_c1009x1286-0x0.webp"
-          alt="Chloe Woods">
-      </div>
-      <div class="author-books">
-        <div class="book-item">
-          <span class="bestseller-label">Bestseller</span>
-          <img src="https://e-c.storage.googleapis.com/res/5958a8e4-b62f-43f0-81c0-636402b2da8a/224"
-            alt="Deadly Secrets">
-          <h4>Deadly Secrets - Chloe Woods</h4>
-          <p>$22.00USD</p>
-          <a href="#" class="buy-link">Buy Now <span>&rarr;</span></a>
+    </section>
+    <section class="author-section">
+      <div class="author-container">
+        <div class="author-info">
+          <span class="featured-label">FEATURED AUTHOR</span>
+          <h2>Chloe Woods</h2>
+          <h3>Romance</h3>
+          <p>
+            Chloe's stories are known for their compelling characters, deep
+            emotions, and relatable themes of love and self-discovery. <br />
+            <br />
+            With each book, she takes readers on a journey through complex
+            relationships and unexpected twists, making her novels a favorite
+            among romance enthusiasts looking for both heart and depth.
+          </p>
+          <button class="about-btn">About C.Woods</button>
         </div>
-        <div class="book-item">
-          <img src="https://e-c.storage.googleapis.com/res/639afcac-92e4-4151-8769-d66ef041af6e/224"
-            alt="Fatal Promise">
-          <h4>Fatal Promise - Chloe Woods</h4>
-          <p>$21.00USD</p>
-          <a href="#" class="buy-link">Buy Now <span>&rarr;</span></a>
-        </div>
-        <div class="book-item">
-          <img src="https://e-c.storage.googleapis.com/res/08f102f2-92c9-4e58-aee2-b4fe5fdaa103/224" alt="Hidden Truth">
-          <h4>Hidden Truth - Chloe Woods</h4>
-          <p>$23.00USD</p>
-          <a href="#" class="buy-link">Buy Now <span>&rarr;</span></a>
-        </div>
-        <div class="book-item">
-          <img src="https://e-c.storage.googleapis.com/res/84ab80f9-8a69-4a1c-ab5e-f1aea8541bc2/224"
-            alt="Stolen Hearts">
-          <h4>Stolen Hearts - Chloe Woods</h4>
-          <p>$21.00USD</p>
-          <a href="#" class="buy-link">Buy Now <span>&rarr;</span></a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="book-section">
-    <div class="trending-header">
-      <span class="trending-label">TRENDING NOW</span>
-      <h2>Discover Your Next Favorite</h2>
-    </div>
-    <div class="book-container">
-      <div class="book-grid">
-        <div class="book-item">
-          <span class="limited-label">Limited</span>
-          <img src="https://e-c.storage.googleapis.com/res/8ab6d76c-651b-411b-8534-3fdf6ea17a82/224"
-            alt="Digital Ghosts">
-          <h3>Digital Ghosts - Jasper Lane</h3>
-          <p>$26.45USD</p>
-          <button class="buy-btn">Buy Now</button>
-        </div>
-        <div class="book-item">
-          <img src="https://e-c.storage.googleapis.com/res/5e107b67-e270-46e6-8454-8ef9a11728b5/224" alt="Hollow Veil">
-          <h3>Hollow Veil - Jasper Lane</h3>
-          <p>$32.50USD</p>
-          <button class="buy-btn">Buy Now</button>
-        </div>
-        <div class="book-item">
-          <img src="https://e-c.storage.googleapis.com/res/b0b1d320-fbfd-49bb-9c5a-56b6990fee97/224" alt="Rebirth">
-          <h3>Rebirth - Damon Cross</h3>
-          <p>$22.50USD</p>
-          <button class="buy-btn">Buy Now</button>
-        </div>
-        <div class="book-item">
-          <img src="https://e-c.storage.googleapis.com/res/d5cabd3c-d822-48d7-b3a7-1e7d609e06fa/224" alt="Shadow Queen">
-          <h3>Shadow Queen - Oliver Reid</h3>
-          <p>$21.99USD</p>
-          <button class="buy-btn">Buy Now</button>
-        </div>
-        <div class="book-item">
-          <img src="https://e-c.storage.googleapis.com/res/a097c651-53a1-46c1-aeda-a22964ff26f8/224"
-            alt="Stars of Andromeda">
-          <h3>Stars of Andromeda - Lara Miles</h3>
-          <p>$29.99USD</p>
-          <button class="buy-btn">Buy Now</button>
-        </div>
-        <div class="book-item">
-          <img src="https://e-c.storage.googleapis.com/res/0dee0d2d-cd66-46d5-afc2-963069d516e0/224"
-            alt="The Quantum Prison">
-          <h3>The Quantum Prison - Alex Draven</h3>
-          <p>$17.00USD</p>
-          <button class="buy-btn">Buy Now</button>
-        </div>
-        <div class="book-item">
-          <img src="https://e-c.storage.googleapis.com/res/c601f800-4e85-487d-85ef-0c916a788662/224" alt="The Shadow">
-          <h3>The Shadow - Lila Gray</h3>
-          <p>$13.00USD</p>
-          <button class="buy-btn">Buy Now</button>
-        </div>
-        <div class="book-item">
-          <span class="bestseller-label">Bestseller</span>
-          <img src="https://e-c.storage.googleapis.com/res/8d584faa-10df-41a0-b528-f59479d2e7de/224" alt="Unseen Eyes">
-          <h3>Unseen Eyes - Rebecca Cole</h3>
-          <p>$27.00USD</p>
-          <button class="buy-btn">Buy Now</button>
-        </div>
-      </div>
-      <div class="top-5">
-        <h3>Top-5 This Week</h3>
-        <div class="top-5-item">
-          <span class="rank">01</span>
+        <div class="author-image">
           <img
-            src="https://res2.weblium.site/res/67064a58db82533cca240ae0/6710e56b3ba4b3067ae283be_optimized_899_e985x1061-43x92.webp"
-            alt="Dark Ocean">
-          <div class="top-5-info">
-            <h4>Dark Ocean</h4>
-            <p>Michael Kane</p>
-          </div>
+            src="https://res2.weblium.site/res/67064a58db82533cca240ae0/670e4610a47e358970a944d9_optimized_1009_c1009x1286-0x0.webp"
+            alt="Chloe Woods"
+          />
         </div>
-        <div class="top-5-item">
-          <span class="rank">02</span>
-          <img
-            src="https://res2.weblium.site/res/67064a58db82533cca240ae0/6710e56fbf4b6124f972b2f4_optimized_899_e985x1061-43x92.webp"
-            alt="Steel Rose">
-          <div class="top-5-info">
-            <h4>Steel Rose</h4>
-            <p>Chloe Woods</p>
+        <div class="author-books">
+          <div class="book-item">
+            <span class="bestseller-label">Bestseller</span>
+            <img
+              src="https://e-c.storage.googleapis.com/res/5958a8e4-b62f-43f0-81c0-636402b2da8a/224"
+              alt="Deadly Secrets"
+            />
+            <h4>Deadly Secrets - Chloe Woods</h4>
+            <p>$22.00USD</p>
+            <a href="#" class="buy-link">Buy Now <span>&rarr;</span></a>
           </div>
-        </div>
-        <div class="top-5-item">
-          <span class="rank">03</span>
-          <img
-            src="https://res2.weblium.site/res/67064a58db82533cca240ae0/6710e53d3ba4b3067ae282e5_optimized_899_e985x1061-43x92.webp"
-            alt="Falling Stars">
-          <div class="top-5-info">
-            <h4>Falling Stars</h4>
-            <p>Lily Mayers</p>
+          <div class="book-item">
+            <img
+              src="https://e-c.storage.googleapis.com/res/639afcac-92e4-4151-8769-d66ef041af6e/224"
+              alt="Fatal Promise"
+            />
+            <h4>Fatal Promise - Chloe Woods</h4>
+            <p>$21.00USD</p>
+            <a href="#" class="buy-link">Buy Now <span>&rarr;</span></a>
           </div>
-        </div>
-        <div class="top-5-item">
-          <span class="rank">04</span>
-          <img
-            src="https://res2.weblium.site/res/67064a58db82533cca240ae0/6710e54259cc315ffa624e07_optimized_899_e985x1061-43x92.webp"
-            alt="Golden Chains">
-          <div class="top-5-info">
-            <h4>Golden Chains</h4>
-            <p>Nathan Cole</p>
+          <div class="book-item">
+            <img
+              src="https://e-c.storage.googleapis.com/res/08f102f2-92c9-4e58-aee2-b4fe5fdaa103/224"
+              alt="Hidden Truth"
+            />
+            <h4>Hidden Truth - Chloe Woods</h4>
+            <p>$23.00USD</p>
+            <a href="#" class="buy-link">Buy Now <span>&rarr;</span></a>
           </div>
-        </div>
-        <div class="top-5-item">
-          <span class="rank">05</span>
-          <img
-            src="https://res2.weblium.site/res/67064a58db82533cca240ae0/6710e5733ba4b3067ae283e7_optimized_899_e985x1061-43x92.webp"
-            alt="Pink?">
-          <div class="top-5-info">
-            <h4>Pink?</h4>
-            <p>Jennifer Welsh</p>
+          <div class="book-item">
+            <img
+              src="https://e-c.storage.googleapis.com/res/84ab80f9-8a69-4a1c-ab5e-f1aea8541bc2/224"
+              alt="Stolen Hearts"
+            />
+            <h4>Stolen Hearts - Chloe Woods</h4>
+            <p>$21.00USD</p>
+            <a href="#" class="buy-link">Buy Now <span>&rarr;</span></a>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="newsletter-section">
-    <div class="newsletter-container">
-      <div class="newsletter-info">
-        <span class="newsletter-label">NEWSLETTER</span>
-        <h2>Stay Updated with <br> Our Latest News!!</h2>
-        <p>Subscribe to our newsletter and never miss an update.</p>
-        <form class="newsletter-form">
-          <input type="email" placeholder="Email*" required>
-          <button type="submit" class="subscribe-btn">Subscribe</button>
-        </form>
+    </section>
+    <section class="book-section">
+      <div class="trending-header">
+        <span class="trending-label">TRENDING NOW</span>
+        <h2>Discover Your Next Favorite</h2>
       </div>
-      <div class="newsletter-books">
-        <img src="https://res2.weblium.site/res/67064a58db82533cca240ae0/67123d8bbf4b6124f976600f_optimized_1160.webp"
-          alt="Tides Melody" class="book-tides-melody">
+      <div class="book-container">
+        <div class="book-grid">
+          <div class="book-item">
+            <span class="limited-label">Limited</span>
+            <img
+              src="https://e-c.storage.googleapis.com/res/8ab6d76c-651b-411b-8534-3fdf6ea17a82/224"
+              alt="Digital Ghosts"
+            />
+            <h3>Digital Ghosts - Jasper Lane</h3>
+            <p>$26.45USD</p>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+          <div class="book-item">
+            <img
+              src="https://e-c.storage.googleapis.com/res/5e107b67-e270-46e6-8454-8ef9a11728b5/224"
+              alt="Hollow Veil"
+            />
+            <h3>Hollow Veil - Jasper Lane</h3>
+            <p>$32.50USD</p>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+          <div class="book-item">
+            <img
+              src="https://e-c.storage.googleapis.com/res/b0b1d320-fbfd-49bb-9c5a-56b6990fee97/224"
+              alt="Rebirth"
+            />
+            <h3>Rebirth - Damon Cross</h3>
+            <p>$22.50USD</p>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+          <div class="book-item">
+            <img
+              src="https://e-c.storage.googleapis.com/res/d5cabd3c-d822-48d7-b3a7-1e7d609e06fa/224"
+              alt="Shadow Queen"
+            />
+            <h3>Shadow Queen - Oliver Reid</h3>
+            <p>$21.99USD</p>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+          <div class="book-item">
+            <img
+              src="https://e-c.storage.googleapis.com/res/a097c651-53a1-46c1-aeda-a22964ff26f8/224"
+              alt="Stars of Andromeda"
+            />
+            <h3>Stars of Andromeda - Lara Miles</h3>
+            <p>$29.99USD</p>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+          <div class="book-item">
+            <img
+              src="https://e-c.storage.googleapis.com/res/0dee0d2d-cd66-46d5-afc2-963069d516e0/224"
+              alt="The Quantum Prison"
+            />
+            <h3>The Quantum Prison - Alex Draven</h3>
+            <p>$17.00USD</p>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+          <div class="book-item">
+            <img
+              src="https://e-c.storage.googleapis.com/res/c601f800-4e85-487d-85ef-0c916a788662/224"
+              alt="The Shadow"
+            />
+            <h3>The Shadow - Lila Gray</h3>
+            <p>$13.00USD</p>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+          <div class="book-item">
+            <span class="bestseller-label">Bestseller</span>
+            <img
+              src="https://e-c.storage.googleapis.com/res/8d584faa-10df-41a0-b528-f59479d2e7de/224"
+              alt="Unseen Eyes"
+            />
+            <h3>Unseen Eyes - Rebecca Cole</h3>
+            <p>$27.00USD</p>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+        </div>
+        <div class="top-5">
+          <h3>Top-5 This Week</h3>
+          <div class="top-5-item">
+            <span class="rank">01</span>
+            <img
+              src="https://res2.weblium.site/res/67064a58db82533cca240ae0/6710e56b3ba4b3067ae283be_optimized_899_e985x1061-43x92.webp"
+              alt="Dark Ocean"
+            />
+            <div class="top-5-info">
+              <h4>Dark Ocean</h4>
+              <p>Michael Kane</p>
+            </div>
+          </div>
+          <div class="top-5-item">
+            <span class="rank">02</span>
+            <img
+              src="https://res2.weblium.site/res/67064a58db82533cca240ae0/6710e56fbf4b6124f972b2f4_optimized_899_e985x1061-43x92.webp"
+              alt="Steel Rose"
+            />
+            <div class="top-5-info">
+              <h4>Steel Rose</h4>
+              <p>Chloe Woods</p>
+            </div>
+          </div>
+          <div class="top-5-item">
+            <span class="rank">03</span>
+            <img
+              src="https://res2.weblium.site/res/67064a58db82533cca240ae0/6710e53d3ba4b3067ae282e5_optimized_899_e985x1061-43x92.webp"
+              alt="Falling Stars"
+            />
+            <div class="top-5-info">
+              <h4>Falling Stars</h4>
+              <p>Lily Mayers</p>
+            </div>
+          </div>
+          <div class="top-5-item">
+            <span class="rank">04</span>
+            <img
+              src="https://res2.weblium.site/res/67064a58db82533cca240ae0/6710e54259cc315ffa624e07_optimized_899_e985x1061-43x92.webp"
+              alt="Golden Chains"
+            />
+            <div class="top-5-info">
+              <h4>Golden Chains</h4>
+              <p>Nathan Cole</p>
+            </div>
+          </div>
+          <div class="top-5-item">
+            <span class="rank">05</span>
+            <img
+              src="https://res2.weblium.site/res/67064a58db82533cca240ae0/6710e5733ba4b3067ae283e7_optimized_899_e985x1061-43x92.webp"
+              alt="Pink?"
+            />
+            <div class="top-5-info">
+              <h4>Pink?</h4>
+              <p>Jennifer Welsh</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
-</body>
-
+    </section>
+    <section class="newsletter-section">
+      <div class="newsletter-container">
+        <div class="newsletter-info">
+          <span class="newsletter-label">NEWSLETTER</span>
+          <h2>
+            Stay Updated with <br />
+            Our Latest News!!
+          </h2>
+          <p>Subscribe to our newsletter and never miss an update.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Email*" required />
+            <button type="submit" class="subscribe-btn">Subscribe</button>
+          </form>
+        </div>
+        <div class="newsletter-books">
+          <img
+            src="https://res2.weblium.site/res/67064a58db82533cca240ae0/67123d8bbf4b6124f976600f_optimized_1160.webp"
+            alt="Tides Melody"
+            class="book-tides-melody"
+          />
+        </div>
+      </div>
+    </section>
+         <!--Added by Oksana-->
+         <section class="featured-authors">
+          <div class="container">
+            <div class="featured-authors-header-container">
+              <h2 class="featured-authors-title">Featured Authors</h2>
+              <button type="button" class="view-all-button">View All</button>
+            </div>
+              <div class="authors">
+                <div class="author">
+                  <img
+                    src="./image/image_authors/67443beb37474f9459a539ce_optimized_1024_c906x906-59x59.webp"
+                    alt="Sophie Lark"
+                  />
+                  <p>SOPHIE LARK</p>
+                </div>
+                <div class="author">
+                  <img
+                    src="./image/image_authors/67443c0c37474f9459a53a3c_optimized_1395_c1395x930-0x0.webp"
+                    alt="Lily Monroe"
+                  />
+                  <p>LILY MONROE</p>
+                </div>
+                <div class="author">
+                  <img
+                    src="./image/image_authors/67443c058f9dc089c65ca148_optimized_1024_c1024x1024-0x0.webp"
+                    alt="Michael Kane"
+                  />
+                  <p>MICHAEL KANE</p>
+                </div>
+                <div class="author">
+                  <img
+                    src="./image/image_authors/67443be337474f9459a53993_optimized_1024_c825x825-99x99.webp"
+                    alt="Emilia Fox"
+                  />
+                  <p>EMILIA FOX</p>
+                </div>
+                <div class="author">
+                  <img
+                    src="./image/image_authors/67443bcc37474f9459a5393b_optimized_1024_c860x860-82x17.webp"
+                    alt="Nathan Cole"
+                  />
+                  <p>NATHAN COLE</p>
+                </div>
+                <div class="author">
+                  <img
+                    src="./image/image_authors/67443bdebbd81fba92b60090_optimized.webp"
+                    alt="Liam Hayes"
+                  />
+                  <p>LIAM HAYES</p>
+                </div>
+              </div>
+          </div>
+        </section>
+    
+      <!--Second section-->
+        <section class="book-section">
+          <div class="left-block">
+            <p class="whats-new">WHATS NEW?</p>
+            <p class="title">Upcoming Book-to-Movie Adaptations You Can't Miss</p>
+            <div class="book-images">
+              <img
+                src="./image/image_authors/6762b682b45fbc15eefe919c_optimized_1944.webp"
+              />
+            </div>
+          </div>
+          <div class="right-block">
+            <img class="right-block-image"
+                src="./image/image_authors/read with us.jpg"  
+                  alt="Read With Us"
+                />
+                 </div>
+        </section>
+        <!-- /Next section Hot Sale -->
+        <section class="hot-sale">
+          <div class="container">
+            <div class="hot-sale-header-container">
+                  <h2>Hot Sale</h2>
+                  <button type="button" class="view-all-button">View All</button>
+                </div>
+                <div class="books-slider">
+                  <div class="products">
+              <div class="product">
+                <img  
+                src="/team-project/image/image_sale/224 (1).png"  
+                  alt="Thorn of the Frost King"
+                />
+                <h3>Thorn of the Frost King - Edgar Hale</h3>
+                <p class="price">$31.00USD</p>
+                <p class="discounted-price">$29.45USD</p>
+                <button>Buy Now</button>
+              </div>
+              <div class="product">
+                <img
+                  src="/team-project/image/image_sale/224 (2).png"
+                  alt="Whispered Secrets - Lily Monroe"
+                />
+                <h3>Whispered Secrets - Lily Monroe</h3>
+                <p class="price">$25.50USD</p>
+                <p class="discounted-price">$20.00USD</p>
+                <button>Buy Now</button>
+              </div>
+              <div class="product sale">
+                <img
+                  src="/team-project/image/image_sale/224 (4).png"
+                  alt="Midnight Shadows - Lily Monroe"
+                />
+                <h3>Midnight Shadows - Lily Monroe</h3>
+                <p class="price">$22.00USD</p>
+                <p class="discounted-price">$20.90USD</p>
+                <button>Buy Now</button>
+              </div>
+              <div class="product">
+                <img
+                  src="/team-project/image/image_sale/224 (5).png"
+                  alt="The Wild Hunt - Oliver Reid"
+                />
+                <h3>The Wild Hunt - Oliver Reid</h3>
+                <p class="price">$26.00USD</p>
+                <p class="discounted-price">$10.00USD</p>
+                <button>Buy Now</button>
+              </div>
+              <div class="product sale">
+                <img
+                  src="/team-project/image/image_sale/224 (7).png"
+                  alt="Melody - Iris West"
+                />
+                <h3>Melody - Iris West</h3>
+                <p class="price">$39.00USD</p>
+                <p class="discounted-price">$35.10USD</p>
+                <button>Buy Now</button>
+              </div>
+            </div>
+            </div>
+        </section>
+  </body>
 </html>
