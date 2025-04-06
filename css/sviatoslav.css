@@ -1,0 +1,515 @@
+.author-section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+   
+  }
+  
+  
+  .author-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+   
+  
+  .author-info {
+    flex: 1;
+    padding: 20px;
+    text-align: right;
+    line-height: 1.5;
+    max-width: 250px;
+  }
+  
+  .featured-label {
+    display: inline-block;
+    color: #ff4d4d;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+   
+  }
+  
+  .author-info h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    margin-bottom: 20px;
+   
+  }
+  
+  .author-info h3 {
+    font-size: 40px;
+    color: #ff4d4d;
+    margin: 0 0 15px;
+    
+  }
+  
+  .author-info p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+   
+  }
+  
+  .about-btn {
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 10px 20px;
+    
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .about-btn:hover {
+    background-color: #e03e3e;
+  }
+
+
+  
+.author-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .author-image img {
+    width: 100%;
+    max-width: 500px;
+    height: 700px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+
+
+  
+  
+  .author-books {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+  }
+  
+  .book-item {
+    position: relative;
+    text-align: center;
+  }
+  
+  .book-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .book-item h4 {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .book-item p {
+    font-size: 14px;
+    color: #ff4d4d;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .buy-link {
+    display: inline-block;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    margin-top: 5px;
+  }
+  
+  .buy-link span {
+    color: #ff4d4d;
+  }
+  
+  
+  .bestseller-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .author-container {
+      flex-direction: column;
+    }
+  
+    .author-info {
+      text-align: center;
+    }
+  
+    .author-books {
+      grid-template-columns: 1fr; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .author-info h2 {
+      font-size: 28px;
+    }
+  
+    .author-info h3 {
+      font-size: 20px;
+    }
+  
+    .author-info p {
+      font-size: 14px;
+    }
+  }
+
+
+
+
+
+
+
+  
+  .book-section {
+    padding: 120px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  .trending-header {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .trending-label {
+    display: inline-block;
+    color: #ff4d4d;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .trending-header h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  
+  .book-container {
+    display: flex;
+    gap: 30px;
+  }
+  
+  
+  .book-grid {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+  }
+  
+  .book-item {
+    position: relative;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .book-item h3 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .book-item p {
+    font-size: 14px;
+    color: #ff4d4d;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .buy-btn {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .buy-btn:hover {
+    background-color: #6e6b6b;
+  }
+  
+  
+  .limited-label,
+  .bestseller-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+  
+  .bestseller-label {
+    background-color: #ff4d4d;
+  }
+  
+  
+  .top-5 {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    
+  }
+  
+  .top-5 h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff4d4d;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .top-5-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .top-5-item .rank {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ccc;
+    margin-right: 10px;
+  }
+  
+  .top-5-item img {
+    width: 60px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .top-5-info h4 {
+    font-size: 14px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .top-5-info p {
+    font-size: 12px;
+    color: #666;
+    margin: 0;
+  }
+  
+  
+  @media (max-width: 1024px) {
+    .book-grid {
+      grid-template-columns: repeat(3, 1fr); 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .book-container {
+      flex-direction: column;
+    }
+  
+    .book-grid {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  
+    .top-5 {
+      margin-top: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .book-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+
+
+
+  .newsletter-section {
+    padding: 40px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(251, 244, 235);
+   
+  }
+   
+  
+  .newsletter-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    max-width: 1200px; 
+    margin: 0 auto; 
+  }
+  
+  
+  .newsletter-info {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .newsletter-label {
+    display: inline-block;
+    color: #666;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-info h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .newsletter-info p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    max-width: 400px;
+  }
+  
+  .newsletter-form input {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #615d5d;
+    border-radius: 20px;
+    outline: none;
+  }
+  
+  .newsletter-form input::placeholder {
+    color: #757171;
+  }
+  
+  .subscribe-btn {
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .subscribe-btn:hover {
+    background-color: #e03e3e;
+  }
+  
+ 
+  .newsletter-books {
+    flex: 1;
+    position: relative;
+    height: 500px; 
+  }
+  
+  .book-tides-melody {
+    position: absolute;
+    width: 110%;
+    height: auto;
+    object-fit: cover;
+    transform: rotate(-5deg);
+    
+   
+  }
+  
+ 
+  
+ 
+  @media (max-width: 768px) {
+    .newsletter-background {
+      border-radius: 20px; 
+      margin-right: 0;
+      width: 100%;
+      margin-left: 0; 
+    }
+  
+    .newsletter-info {
+      text-align: center;
+    }
+  
+    .newsletter-form {
+      flex-direction: column;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+  
+    .newsletter-form input,
+    .subscribe-btn {
+      width: 100%;
+    }
+  
+    .newsletter-books {
+      height: 300px;
+    }
+  
+    .book-tides-melody {
+      width: 150px;
+      height: 225px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .newsletter-info h2 {
+      font-size: 24px;
+    }
+  
+    .newsletter-info p {
+      font-size: 14px;
+    }
+  
+    .newsletter-books {
+      height: 200px;
+    }
+  
+    .book-tides-melody {
+      width: 120px;
+      height: 180px;
+    }
+  }
